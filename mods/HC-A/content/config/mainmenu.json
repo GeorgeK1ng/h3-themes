@@ -11,7 +11,7 @@
 		"background" : ["loadbar0", "loadbar1", "loadbar2", "loadbar3", "loadbar4", "loadbar5", "loadbar6", "loadbar7"],
 
 		"loadbar" : {
-			"name": ["loadprog0", "loadprog1", "loadprog2", "loadprog3", "loadprog4", "loadprog5"]
+			"name": ["loadprog0", "loadprog1", "loadprog2", "loadprog3", "loadprog4", "loadprog5"],
 			"x": 395, "y": 548, "size": 18, "amount": 20,
 		}
 	},
