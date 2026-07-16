@@ -16,7 +16,6 @@
 	},
 	"depends" :
 	[
-		"h3-themes._support.originalbuttons",
-		"polish-translation"
+		"h3-themes._support.originalbuttons"
 	]
 }

@@ -2,7 +2,7 @@
 	"name" : "Main Menu Themes Pack",
 	"description" : "Main Menu themes from: RoE, AB, SoD, HotA, WoG, ToW",
 	"author" : "New World Computing, HotA Team, Mod Design Team, avatar, Aphra",
-	"version" : "2.2.1",
+	"version" : "2.5.0",
 	"modType" : "Interface",	
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"compatibility":
@@ -26,7 +26,8 @@
 		"2.0.0"   : [ "Legends theme added" ],
 		"2.1.0"   : [ "HD icon support" ],
 		"2.2.0"   : [ "Translations added" ],
-		"2.2.1"   : [ "Fix for polish version of HD 16:9 Complete theme" ]
+		"2.2.1"   : [ "Fix for polish version of HD 16:9 Complete theme" ],
+		"2.5.0"   : [ "Translations added" ]
     },
 	"conflicts" :
 	[

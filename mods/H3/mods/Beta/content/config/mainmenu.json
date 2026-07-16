@@ -1,0 +1,227 @@
+{
+    "scenario-selection": {
+        "background": [
+            "gamselb0"
+        ]
+    },
+    "loading": {
+        "background": [
+            "loadbar"
+        ],
+        "loadbar": {
+            "name": [
+                "loadprog"
+            ],
+            "x": 395,
+            "y": 548,
+            "size": 18,
+            "amount": 20
+        }
+    },
+    "multiplayer": [
+        "mumap"
+    ],
+    "window": {
+        "background": [
+            "gamselbk"
+        ],
+        "items": [
+            {
+                "name": "main",
+                "buttons": [
+                    {
+                        "x": 21,
+                        "y": 16,
+                        "name": "main-new",
+                        "help": 3,
+                        "command": "to new",
+                        "shortcut": "mainMenuNewGame"
+                    },
+                    {
+                        "x": 21,
+                        "y": 82,
+                        "name": "main-load",
+                        "help": 4,
+                        "command": "to load",
+                        "shortcut": "mainMenuLoadGame"
+                    },
+                    {
+                        "x": 21,
+                        "y": 148,
+                        "name": "main-scores",
+                        "help": 5,
+                        "command": "highscores",
+                        "shortcut": "mainMenuHighScores"
+                    },
+                    {
+                        "x": 21,
+                        "y": 214,
+                        "name": "main-credits",
+                        "help": 6,
+                        "command": "to credits",
+                        "shortcut": "mainMenuCredits"
+                    },
+                    {
+                        "x": 21,
+                        "y": 280,
+                        "name": "quit",
+                        "help": 7,
+                        "command": "exit",
+                        "shortcut": "mainMenuQuit"
+                    }
+                ]
+            },
+            {
+                "name": "new",
+                "buttons": [
+                    {
+                        "x": 21,
+                        "y": 16,
+                        "name": "game-single",
+                        "help": 10,
+                        "command": "start single",
+                        "shortcut": "mainMenuSingleplayer"
+                    },
+                    {
+                        "x": 21,
+                        "y": 82,
+                        "name": "game-multi",
+                        "help": 12,
+                        "command": "start multi",
+                        "shortcut": "mainMenuMultiplayer"
+                    },
+                    {
+                        "x": 21,
+                        "y": 148,
+                        "name": "game-camp",
+                        "help": 11,
+                        "command": "to campaign",
+                        "shortcut": "mainMenuCampaign"
+                    },
+                    {
+                        "x": 21,
+                        "y": 214,
+                        "name": "game-tutor",
+                        "help": 13,
+                        "command": "start tutorial",
+                        "shortcut": "mainMenuTutorial"
+                    },
+                    {
+                        "x": 21,
+                        "y": 280,
+                        "name": "back",
+                        "help": 14,
+                        "command": "to main",
+                        "shortcut": "mainMenuBack"
+                    }
+                ],
+                "images": [
+                    {
+                        "x": 452,
+                        "y": 239,
+                        "name": "NEWGAME"
+                    }
+                ]
+            },
+            {
+                "name": "load",
+                "buttons": [
+                    {
+                        "x": 21,
+                        "y": 16,
+                        "name": "game-single",
+                        "help": 10,
+                        "command": "load single",
+                        "shortcut": "mainMenuSingleplayer"
+                    },
+                    {
+                        "x": 21,
+                        "y": 82,
+                        "name": "game-multi",
+                        "help": 12,
+                        "command": "load multi",
+                        "shortcut": "mainMenuMultiplayer"
+                    },
+                    {
+                        "x": 21,
+                        "y": 148,
+                        "name": "game-camp",
+                        "help": 11,
+                        "command": "load campaign",
+                        "shortcut": "mainMenuCampaign"
+                    },
+                    {
+                        "x": 21,
+                        "y": 214,
+                        "name": "game-tutor",
+                        "help": 13,
+                        "command": "load tutorial",
+                        "shortcut": "mainMenuTutorial"
+                    },
+                    {
+                        "x": 21,
+                        "y": 280,
+                        "name": "back",
+                        "help": 14,
+                        "command": "to main",
+                        "shortcut": "mainMenuBack"
+                    }
+                ],
+                "images": [
+                    {
+                        "x": 452,
+                        "y": 239,
+                        "name": "LOADGAME"
+                    }
+                ]
+            },
+            {
+                "name": "campaign",
+                "buttons": [
+                    {
+                        "x": 21,
+                        "y": 16,
+                        "name": "camp-roe",
+                        "command": "campaigns roe",
+                        "shortcut": "mainMenuCampaignRoe"
+                    },
+                    {
+                        "x": 21,
+                        "y": 82,
+                        "name": "camp-ab",
+                        "command": "campaigns ab",
+                        "shortcut": "mainMenuCampaignAb"
+                    },
+                    {
+                        "x": 21,
+                        "y": 148,
+                        "name": "camp-sod",
+                        "command": "campaigns sod",
+                        "shortcut": "mainMenuCampaignSod"
+                    },
+                    {
+                        "x": 21,
+                        "y": 280,
+                        "name": "camp-chr",
+                        "command": "campaigns chr",
+                        "shortcut": "mainMenuCampaignChr"
+                    },
+                    {
+                        "x": 21,
+                        "y": 346,
+                        "name": "camp-custom",
+                        "command": "start campaign",
+                        "shortcut": "mainMenuCampaign"
+                    },
+                    {
+                        "x": 21,
+                        "y": 412,
+                        "name": "back",
+                        "command": "to new",
+                        "shortcut": "mainMenuNewGame"
+                    }
+                ]
+            }
+        ]
+    }
+}

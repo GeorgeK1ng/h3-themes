@@ -1,0 +1,51 @@
+{
+	"name" : "1.6 (2020)",
+	"description" : "Heroes 3 Theme: Horn of the Abyss 1.6",
+	"author" : "",
+	"version" : "",
+	"modType" : "Interface",	
+	"contact" : "",
+	"keepDisabled" : true,
+	"depends" :
+	[
+		"h3-themes._support.originalbuttons"
+	],
+	"conflicts" :
+	[
+		"h3-themes.h3",
+		"h3-themes.h3.roe",
+		"h3-themes.h3.ab",
+		"h3-themes.h3.sod",
+		"h3-themes.h3.complete",
+		"h3-themes.h3.hd",
+		"h3-themes.h3.beta",
+
+		"h3-themes.h3-collection",
+		
+		"h3-themes.chronicles",
+		"h3-themes.chronicles.hc-1",
+		"h3-themes.chronicles.hc-2",
+		"h3-themes.chronicles.hc-3",
+		"h3-themes.chronicles.hc-4",
+		"h3-themes.chronicles.hc-5",
+		"h3-themes.chronicles.hc-6",
+		"h3-themes.chronicles.hc-7",
+		"h3-themes.chronicles.hc-8",
+		
+		"h3-themes.chronicles-collection",
+
+		"h3-themes.hota.hota-17",
+
+		"h3-themes.wog",
+		"h3-themes.tow",
+		"h3-themes.vcmi",
+		"h3-themes.vcmi-ai",
+		"h3-themes.legends",
+
+		"hota.mainmenu",
+		"hota.mainmenu.mainMenuLegacy",		
+		"wake-of-gods.mainmenu",
+		"tides-of-war.tow-main-menu",
+		"hi-rez-menu"
+	]
+}

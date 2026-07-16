@@ -1,0 +1,13 @@
+{
+	"name" : "Heroes Chronicles",
+	"description" : "This mod contains main mentu themes from all 8 Heroes Chronicles chapters",
+	"author" : "",
+	"version" : "",
+	"modType" : "Interface",	
+	"contact" : "",
+	"keepDisabled" : true,
+	"depends" :
+	[
+		"h3-themes._support.originalbuttons"
+	]
+}

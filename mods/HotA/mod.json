@@ -1,0 +1,12 @@
+{
+	"name" : "Horn of the Abyss",
+	"description" : "",
+	"author" : "George King",
+	"version" : "1.0",
+	"modType" : "Interface",	
+	"contact" : "",
+	"keepDisabled" : true,
+	"compatibility" : {
+		"min" : "1.6.3"
+	}
+}

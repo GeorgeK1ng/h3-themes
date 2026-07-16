@@ -1,0 +1,305 @@
+{
+	"backgroundAround" : "around",
+
+	//images used in game selection screen
+	//"game-select" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+	"scenario-selection" :
+	{
+		//"background" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+		
+		"background" : ["heroes_right/gamselbk00.png", "heroes_right/gamselbk01.png", "heroes_right/gamselbk02.png", "heroes_right/gamselbk03.png", "heroes_right/gamselbk04.png", "heroes_right/gamselbk05.png", "heroes_right/gamselbk06.png", "heroes_right/gamselbk07.png", "heroes_right/gamselbk08.png", "heroes_right/gamselbk09.png", "heroes_right/gamselbk10.png", "heroes_right/gamselbk11.png", "heroes_right/gamselbk12.png", "heroes_right/gamselbk13.png", "heroes_right/gamselbk14.png", "heroes_right/gamselbk15.png", "heroes_right/gamselbk16.png", "heroes_right/gamselbk17.png", "heroes_right/gamselbk18.png", "heroes_right/gamselbk19.png", "heroes_right/gamselbk20.png", "heroes_right/gamselbk21.png", "heroes_right/gamselbk22.png", "heroes_right/gamselbk23.png", "heroes_right/gamselbk24.png", "heroes_right/gamselbk25.png", "heroes_right/gamselbk26.png", "heroes_right/gamselbk27.png", "heroes_right/gamselbk28.png"],
+		
+		// Additional images
+		"images" : 
+		[
+			// Small logo
+			{ "x" : 20, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+			// Small expansion logo
+			//{ "x" : 21, "y" : 105, "name" : ["small/sublogo/Complete.png","small/sublogo/DoR.png","small/sublogo/HotA.png","small/sublogo/RoE.png","small/sublogo/SoD.png","small/sublogo/ToW.png","small/sublogo/TSW.png","small/sublogo/VCMI1.png","small/sublogo/VCMI2.png","small/sublogo/WoG.png"]}
+		]
+
+	},
+	
+	"loading" :
+	{
+		//"background" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+		
+		"background" : ["heroes_right/gamselbk00.png", "heroes_right/gamselbk01.png", "heroes_right/gamselbk02.png", "heroes_right/gamselbk03.png", "heroes_right/gamselbk04.png", "heroes_right/gamselbk05.png", "heroes_right/gamselbk06.png", "heroes_right/gamselbk07.png", "heroes_right/gamselbk08.png", "heroes_right/gamselbk09.png", "heroes_right/gamselbk10.png", "heroes_right/gamselbk11.png", "heroes_right/gamselbk12.png", "heroes_right/gamselbk13.png", "heroes_right/gamselbk14.png", "heroes_right/gamselbk15.png", "heroes_right/gamselbk16.png", "heroes_right/gamselbk17.png", "heroes_right/gamselbk18.png", "heroes_right/gamselbk19.png", "heroes_right/gamselbk20.png", "heroes_right/gamselbk21.png", "heroes_right/gamselbk22.png", "heroes_right/gamselbk23.png", "heroes_right/gamselbk24.png", "heroes_right/gamselbk25.png", "heroes_right/gamselbk26.png", "heroes_right/gamselbk27.png", "heroes_right/gamselbk28.png"],
+		
+		"loadbar" : {
+			"name" : ["loadprog0", "loadprog1", "loadprog2", "loadprog3", "loadprog4", "loadprog5", "loadprog6", "loadprog7"],
+			"x" : 395, "y" : 548, "size" : 18, "amount" : 20,
+		},
+
+		"loadframe" : {
+			//"name" : ["loadframe0", "loadframe1", "loadframe2", "loadframe3", "loadframe4"],
+			"name" : ["loadframe1"],
+			//"x" : 390, "y" : 543
+			//"x" : 390, "y" : 539  // Original?
+			"x" : 371, "y" : 535
+		},
+		
+		// Additional images
+		"images" : 
+		[
+			//{ "x" : 10, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+			//{ "x" : 10, "y" : 140, "name" : ["small/sublogo/Complete.png","small/sublogo/DoR.png","small/sublogo/HotA.png","small/sublogo/RoE.png","small/sublogo/SoD.png","small/sublogo/ToW.png","small/sublogo/TSW.png","small/sublogo/VCMI1.png","small/sublogo/VCMI2.png","small/sublogo/WoG.png"]} 
+			
+			// Small logo
+			{ "x" : 0, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+			// Small expansion logo
+			//{ "x" : 1, "y" : 105, "name" : ["small/sublogo/Complete.png","small/sublogo/DoR.png","small/sublogo/HotA.png","small/sublogo/RoE.png","small/sublogo/SoD.png","small/sublogo/ToW.png","small/sublogo/TSW.png","small/sublogo/VCMI1.png","small/sublogo/VCMI2.png","small/sublogo/WoG.png"]} 
+
+		
+		]
+		
+	},
+
+	"multiplayer" : ["mumap0", "mumap1", "mumap2", "mumap3", "mumap4", "mumap5", "mumap6", "mumap7"],
+
+	//Main menu window, consists of several sub-menus aka items
+	"window" :
+	{
+		//"background" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+		//"background" : ["era/Map_D_1", "era/Map_D_2", "era/Map_D_3", "era/Map_D_4", "era/Map_D_5", "era/Map_D_6", "era/Map_D_7", "era/Map_D_8", "era/Map_D_9"],
+		
+		"background" : ["heroes_right/gamselbk00.png", "heroes_right/gamselbk01.png", "heroes_right/gamselbk02.png", "heroes_right/gamselbk03.png", "heroes_right/gamselbk04.png", "heroes_right/gamselbk05.png", "heroes_right/gamselbk06.png", "heroes_right/gamselbk07.png", "heroes_right/gamselbk08.png", "heroes_right/gamselbk09.png", "heroes_right/gamselbk10.png", "heroes_right/gamselbk11.png", "heroes_right/gamselbk12.png", "heroes_right/gamselbk13.png", "heroes_right/gamselbk14.png", "heroes_right/gamselbk15.png", "heroes_right/gamselbk16.png", "heroes_right/gamselbk17.png", "heroes_right/gamselbk18.png", "heroes_right/gamselbk19.png", "heroes_right/gamselbk20.png", "heroes_right/gamselbk21.png", "heroes_right/gamselbk22.png", "heroes_right/gamselbk23.png", "heroes_right/gamselbk24.png", "heroes_right/gamselbk25.png", "heroes_right/gamselbk26.png", "heroes_right/gamselbk27.png", "heroes_right/gamselbk28.png"],
+		
+		//"background" : ["heroes_right/gamselbk28.png"],
+		
+		// Left side logos
+		//"images" : 
+		//[
+		//	{ "x" : 20, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+		//	{ "x" : 20, "y" : 140, "name" : ["small/sublogo/Complete.png","small/sublogo/DoR.png","small/sublogo/HotA.png","small/sublogo/RoE.png","small/sublogo/SoD.png","small/sublogo/ToW.png","small/sublogo/TSW.png","small/sublogo/VCMI1.png","small/sublogo/VCMI2.png","small/sublogo/WoG.png"]} 
+		//
+		//],
+		
+		// Center logos
+		"images" : 
+		[
+			// Small logo
+			//{ "x" : 233, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+			{ "x" : 0, "y" : 0, "name" : ["small/logo/25Anniversary.png","small/logo/BoardGame.png","small/logo/Chronicles.png","small/logo/Complete.png","small/logo/Golden.png","small/logo/HD.png","small/logo/HotA.png","small/logo/MoP.png","small/logo/TSW.png","small/logo/Unknown.png" ]},
+			// Small expansion logo
+			//{ "x" : 234, "y" : 105, "name" : ["small/sublogo/Complete.png","small/sublogo/DoR.png","small/sublogo/HotA.png","small/sublogo/RoE.png","small/sublogo/SoD.png","small/sublogo/ToW.png","small/sublogo/TSW.png","small/sublogo/VCMI1.png","small/sublogo/VCMI2.png","small/sublogo/WoG.png"]} 
+			
+			// Big logo
+			//{ "x" : 188, "y" : 0, "name" : ["big/logo/25Anniversary.png","big/logo/BoardGame.png","big/logo/Chronicles.png","big/logo/Complete.png","big/logo/Golden.png","big/logo/HD.png","big/logo/HotA.png","big/logo/MoP.png","big/logo/TSW.png","big/logo/Unknown.png" ]},
+			// Big expansion logo
+			//{ "x" : 300, "y" : 140, "name" : ["big/sublogo/Complete.png","big/sublogo/DoR.png","big/sublogo/HotA.png","big/sublogo/RoE.png","big/sublogo/SoD.png","big/sublogo/ToW.png","big/sublogo/TSW.png","big/sublogo/VCMI1.png","big/sublogo/VCMI2.png","big/sublogo/WoG.png"]} 
+
+		
+		],
+		
+		//"scalable" : true, //background will be scaled to screen size
+		//"video" :    {"x" : 387, "y" : 231, "name" : "CREDITS.bik" },//Floating WoG logo. Disabled due to different position in various versions of H3.
+
+		"items" : 
+		[
+			{
+				"name" : "main",
+				"buttons" : [
+					{
+						"x" : -200,
+						"y" : 0,
+						"name" : "main-new",
+						"help" : 3,
+						"command" : "to new",
+						"shortcut" : "mainMenuNewGame"
+					},
+					{
+						"x" : -200,
+						"y" : 120,
+						"name" : "main-load",
+						"help" : 4,
+						"command" : "to load",
+						"shortcut" : "mainMenuLoadGame"
+					},
+					{
+						"x" : -200,
+						"y" : 240,
+						"name" : "main-scores",
+						"help" : 5,
+						"command" : "highscores",
+						"shortcut" : "mainMenuHighScores"
+					},
+					{
+						"x" : -200,
+						"y" : 360,
+						"name" : "main-credits",
+						"help" : 6,
+						"command" : "to credits",
+						"shortcut" : "mainMenuCredits"
+					},
+					{
+						"x" : -200,
+						"y" : 480,
+						"name" : "quit",
+						"help" : 7,
+						"command" : "exit",
+						"shortcut" : "mainMenuQuit"
+					}
+				]
+			},
+			{
+				"name" : "new",
+				"buttons" : [
+					{
+						"x" : -200,
+						"y" : 0,
+						"name" : "game-single",
+						"help" : 10,
+						"command" : "start single",
+						"shortcut" : "mainMenuSingleplayer"
+					},
+					{
+						"x" : -200,
+						"y" : 120,
+						"name" : "game-multi",
+						"help" : 12,
+						"command" : "start multi",
+						"shortcut" : "mainMenuMultiplayer"
+					},
+					{
+						"x" : -200,
+						"y" : 240,
+						"name" : "game-camp",
+						"help" : 11,
+						"command" : "to campaign",
+						"shortcut" : "mainMenuCampaign"
+					},
+					{
+						"x" : -200,
+						"y" : 360,
+						"name" : "game-tutor",
+						"help" : 13,
+						"command" : "start tutorial",
+						"shortcut" : "mainMenuTutorial"
+					},
+					{
+						"x" : -200,
+						"y" : 480,
+						"name" : "back",
+						"help" : 14,
+						"command" : "to main",
+						"shortcut" : "mainMenuBack"
+					}
+				],
+				"images" : [ {"x" : 250, "y" : 495, "name" : "NEWGAME"} ]
+			},
+			{
+				"name" : "load",
+				"buttons" : [
+					{
+						"x" : -200,
+						"y" : 0,
+						"name" : "game-single",
+						"help" : 10,
+						"command" : "load single",
+						"shortcut" : "mainMenuSingleplayer"
+					},
+					{
+						"x" : -200,
+						"y" : 120,
+						"name" : "game-multi",
+						"help" : 12,
+						"command" : "load multi",
+						"shortcut" : "mainMenuMultiplayer"
+					},
+					{
+						"x" : -200,
+						"y" : 240,
+						"name" : "game-camp",
+						"help" : 11,
+						"command" : "load campaign",
+						"shortcut" : "mainMenuCampaign"
+					},
+					{
+						"x" : -200,
+						"y" : 360,
+						"name" : "game-tutor",
+						"help" : 13,
+						"command" : "load tutorial",
+						"shortcut" : "mainMenuTutorial"
+					},
+					{
+						"x" : -200,
+						"y" : 480,
+						"name" : "back",
+						"help" : 14,
+						"command" : "to main",
+						"shortcut" : "mainMenuBack"
+					}
+				],
+				"images" : [ {"x" : 250, "y" : 495, "name" : "LOADGAME"} ]
+			},
+			{
+				"name" : "campaign",
+				"buttons" :
+				[
+					// All initial
+					//{"x" : -232, "y" : 19,  "name" : "camp-roe", "hotkey" : 114, "command" : "campaigns roe"},
+					//{"x" : -243, "y" : 133, "name" : "camp-ab", "hotkey" : 97,  "command" : "campaigns ab"},
+					//{"x" : -200, "y" : 254, "name" : "camp-sod", "hotkey" : 119, "command" : "campaigns sod"},
+					//
+					//{"x" : -500, "y" : 19,  "name" : "camp-chr", "hotkey" : 120, "command" : "campaigns chr"},
+					//{"x" : -500, "y" : 133,  "name" : "camp-dor", "hotkey" : 121, "command" : "campaigns dor"},
+					//{"x" : -500, "y" : 254, "name" : "camp-hota", "hotkey" : 122, "command" : "campaigns hota"},
+					//
+					//{"x" : -700, "y" : 19,  "name" : "camp-wog", "hotkey" : 120, "command" : "campaigns wog"},
+					//{"x" : -700, "y" : 133,  "name" : "camp-vcmi", "hotkey" : 121, "command" : "campaigns vcmi"},					
+					//
+					//{"x" : -192, "y" : 364, "name" : "camp-custom", "hotkey" : 99,  "command" : "start campaign"},
+					//{"x" : -800, "y" : 460, "name" : "back", "hotkey" : 27,  "command" : "to new"}
+					
+					// Second try
+					// {"x" : -232, "y" : 39,  "name" : "camp-sod", "hotkey" : 114, "command" : "campaigns sod"},
+					// {"x" : -500, "y" : 40, "name" : "camp-ab", "hotkey" : 97,  "command" : "campaigns ab"},
+					// {"x" : -750, "y" : 32, "name" : "camp-roe", "hotkey" : 119, "command" : "campaigns roe"},
+					// 
+					// {"x" : -252, "y" : 170,  "name" : "camp-wog", "hotkey" : 120, "command" : "campaigns wog"},
+					// {"x" : -500, "y" : 170,  "name" : "camp-hota", "hotkey" : 122, "command" : "campaigns hota"},
+					// {"x" : -763, "y" : 170, "name" : "camp-chr", "hotkey" : 120, "command" : "campaigns chr"},
+					// 
+					// {"x" : -510, "y" : 300, "name" : "camp-dor", "hotkey" : 121, "command" : "campaigns dor"},
+					// {"x" : -750, "y" : 300, "name" : "camp-vcmi", "hotkey" : 121, "command" : "campaigns vcmi"},
+					// 
+					// {"x" : -192, "y" : 460, "name" : "camp-custom", "hotkey" : 99,  "command" : "start campaign"},
+					// {"x" : -805, "y" : 460, "name" : "back", "hotkey" : 27,  "command" : "to new"}
+					
+
+					// {"x" : -270, "y" : 10,  "name" : "camp-sw", "shortcut" : "mainMenuCampaignSw", "command" : "campaigns sw"}, // For future use with campaign pack collection organized into bigger campaign set
+					
+					{"x" : -232, "y" : 158,  "name" : "camp-sod", "shortcut" : "mainMenuCampaignSod", "command" : "campaigns sod"},
+					{"x" : -500, "y" : 156, "name" : "camp-ab", "shortcut" : "mainMenuCampaignAb", "command" : "campaigns ab"},
+					{"x" : -750, "y" : 152, "name" : "camp-roe", "shortcut" : "mainMenuCampaignRoe", "command" : "campaigns roe"},
+
+					{"x" : -252, "y" : 300,  "name" : "camp-wog", "shortcut" : "mainMenuCampaignWog", "command" : "campaigns wog"},
+					{"x" : -480, "y" : 300,  "name" : "camp-hota", "shortcut" : "mainMenuCampaignHota", "command" : "campaigns hota"},
+					{"x" : -763, "y" : 300, "name" : "camp-chr", "shortcut" : "mainMenuCampaignChr", "command" : "campaigns chr"},
+					
+					{"x" : -750, "y" : 300, "name" : "camp-vcmi", "shortcut" : "mainMenuCampaignVCMI", "command" : "campaigns vcmi"},
+					
+					//{"x" : -192, "y" : 460, "name" : "camp-custom", "shortcut" : "mainMenuCampaign",  "command" : "start campaign"},
+					
+					//{"x" : -805, "y" : 460, "name" : "back", "shortcut" : "mainMenuBack",  "command" : "to new"}
+
+
+					{"x" : -760, "y" : 486, "name" : "camp-custom", "shortcut" : "mainMenuCampaign",  "command" : "start campaign"},
+					
+				
+										{
+						"x" : -200,
+						"y" : 480,
+						"name" : "back",
+						"help" : 14,
+						"command" : "to new",
+						"shortcut" : "mainMenuBack"
+					}
+				],
+				"images" : [ {"x" : 250, "y" : 495, "name" : "CAMPAIGN"} ]
+			}
+		]
+	}
+}
