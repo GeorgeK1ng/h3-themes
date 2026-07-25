@@ -286,7 +286,7 @@
 					//{"x" : -805, "y" : 460, "name" : "back", "shortcut" : "mainMenuBack",  "command" : "to new"}
 
 
-					{"x" : -760, "y" : 486, "name" : "camp-custom", "shortcut" : "mainMenuCampaignCustom",  "help" : "core.genrltxt.727", "command" : "start campaign"},
+					{"x" : -760, "y" : 486, "name" : "camp-custom", "shortcut" : "mainMenuCampaignCustom",  "help" : "core.genrltxt.726", "command" : "start campaign"},
 					
 				
 										{

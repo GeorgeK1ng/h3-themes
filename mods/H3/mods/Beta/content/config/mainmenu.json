@@ -132,7 +132,7 @@
                         "name": "game-single",
                         "help": 10,
                         "command": "load single",
-                        "shortcut": "mainMenuSingleplayer",
+                        "shortcut": "mainMenuSingleplayer"
                     },
                     {
                         "x": 21,
