@@ -182,6 +182,7 @@
                         "x": 21,
                         "y": 16,
                         "name": "camp-roe",
+                        "help": "core.genrltxt.725",
                         "command": "campaigns roe",
                         "shortcut": "mainMenuCampaignRoe"
                     },
@@ -189,6 +190,7 @@
                         "x": 21,
                         "y": 82,
                         "name": "camp-ab",
+                        "help": "core.genrltxt.724",
                         "command": "campaigns ab",
                         "shortcut": "mainMenuCampaignAb"
                     },
@@ -196,8 +198,23 @@
                         "x": 21,
                         "y": 148,
                         "name": "camp-sod",
+                        "help": "core.genrltxt.734",
                         "command": "campaigns sod",
                         "shortcut": "mainMenuCampaignSod"
+                    },
+                    {
+                        "x": 280,
+                        "y": 16,
+                        "name": "camp-wog",
+                        "command": "campaigns wog",
+                        "shortcut": "mainMenuCampaignWog"
+                    },
+                    {
+                        "x": 280,
+                        "y": 82,
+                        "name": "camp-hota",
+                        "command": "campaigns hota",
+                        "shortcut": "mainMenuCampaignHota"
                     },
                     {
                         "x": 21,
@@ -210,15 +227,17 @@
                         "x": 21,
                         "y": 346,
                         "name": "camp-custom",
+                        "help": "core.genrltxt.726",
                         "command": "start campaign",
-                        "shortcut": "mainMenuCampaign"
+                        "shortcut": "mainMenuCampaignCustom"
                     },
                     {
                         "x": 21,
                         "y": 412,
                         "name": "back",
+                        "help": "core.genrltxt.727",
                         "command": "to new",
-                        "shortcut": "mainMenuNewGame"
+                        "shortcut": "mainMenuBack"
                     }
                 ]
             }
