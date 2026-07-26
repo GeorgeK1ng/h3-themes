@@ -3,11 +3,10 @@
 	"description" : "Heroes 3 Theme: Beta",
 	"author" : "",
 	"version" : "",
-	"modType" : "Interface",	
+	"modType" : "Interface",
 	"contact" : "",
 	"keepDisabled" : true,
-	"conflicts" :
-	[
+	"conflicts" : [
 		"h3-themes.h3.roe",
 		"h3-themes.h3.ab",
 		"h3-themes.h3.sod",
@@ -15,7 +14,7 @@
 		"h3-themes.h3.hd",
 
 		"h3-themes.h3-collection",
-		
+
 		"h3-themes.chronicles",
 		"h3-themes.chronicles.hc-1",
 		"h3-themes.chronicles.hc-2",
@@ -25,7 +24,7 @@
 		"h3-themes.chronicles.hc-6",
 		"h3-themes.chronicles.hc-7",
 		"h3-themes.chronicles.hc-8",
-		
+
 		"h3-themes.chronicles-collection",
 
 		"h3-themes.hota",
@@ -39,7 +38,7 @@
 		"h3-themes.legends",
 
 		"hota.mainmenu",
-		"hota.mainmenu.mainMenuLegacy",		
+		"hota.mainmenu.mainMenuLegacy",
 		"wake-of-gods.mainmenu",
 		"tides-of-war.tow-main-menu",
 		"hi-rez-menu"

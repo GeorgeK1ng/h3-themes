@@ -3,18 +3,16 @@
 	"description" : "Main menu theme created from all Heroes Chronicles chapters",
 	"author" : "George King",
 	"version" : "1.0",
-	"modType" : "Interface",	
+	"modType" : "Interface",
 	"contact" : "",
 	"keepDisabled" : true,
 	"compatibility" : {
 		"min" : "1.6.4"
 	},
-	"depends" :
-	[
+	"depends" : [
 		"h3-themes._support.originalbuttons"
 	],
-	"conflicts" :
-	[
+	"conflicts" : [
 		"h3-themes.h3",
 		"h3-themes.h3.roe",
 		"h3-themes.h3.ab",
@@ -24,7 +22,7 @@
 		"h3-themes.h3.beta",
 
 		"h3-themes.h3-collection",
-		
+
 		"h3-themes.chronicles",
 		"h3-themes.chronicles.hc-1",
 		"h3-themes.chronicles.hc-2",
@@ -46,7 +44,7 @@
 		"h3-themes.legends",
 
 		"hota.mainmenu",
-		"hota.mainmenu.mainMenuLegacy",		
+		"hota.mainmenu.mainMenuLegacy",
 		"wake-of-gods.mainmenu",
 		"tides-of-war.tow-main-menu",
 		"hi-rez-menu"

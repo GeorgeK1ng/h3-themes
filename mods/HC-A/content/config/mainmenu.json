@@ -1,79 +1,292 @@
 {
 	//images used in game selection screen
-	"scenario-selection" :
-	{
-	"background" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+	"scenario-selection" : {
+		"background" : [
+			"gamselbk0",
+			"gamselbk1",
+			"gamselbk2",
+			"gamselbk3",
+			"gamselbk4",
+			"gamselbk5",
+			"gamselbk6",
+			"gamselbk7"
+		]
 	},
-	
-	
-	"loading" :
-	{
-		"background" : ["loadbar0", "loadbar1", "loadbar2", "loadbar3", "loadbar4", "loadbar5", "loadbar6", "loadbar7"],
+
+	"loading" : {
+		"background" : [
+			"loadbar0",
+			"loadbar1",
+			"loadbar2",
+			"loadbar3",
+			"loadbar4",
+			"loadbar5",
+			"loadbar6",
+			"loadbar7"
+		],
 
 		"loadbar" : {
-			"name": ["loadprog0", "loadprog1", "loadprog2", "loadprog3", "loadprog4", "loadprog5"],
-			"x": 395, "y": 548, "size": 18, "amount": 20,
+			"name" : [
+				"loadprog0",
+				"loadprog1",
+				"loadprog2",
+				"loadprog3",
+				"loadprog4",
+				"loadprog5"
+			],
+			"x" : 395,
+			"y" : 548,
+			"size" : 18,
+			"amount" : 20
 		}
 	},
-	
-	"multiplayer" : ["mumap0", "mumap1", "mumap2", "mumap3", "mumap4", "mumap5", "mumap6", "mumap7"],
-	
+
+	"multiplayer" : [
+		"mumap0",
+		"mumap1",
+		"mumap2",
+		"mumap3",
+		"mumap4",
+		"mumap5",
+		"mumap6",
+		"mumap7"
+	],
+
 	//Main menu window, consists of several sub-menus aka items
-	"window":
-	{
-		"background" : ["gamselbk0", "gamselbk1", "gamselbk2", "gamselbk3", "gamselbk4", "gamselbk5", "gamselbk6", "gamselbk7"],
+	"window" : {
+		"background" : [
+			"gamselbk0",
+			"gamselbk1",
+			"gamselbk2",
+			"gamselbk3",
+			"gamselbk4",
+			"gamselbk5",
+			"gamselbk6",
+			"gamselbk7"
+		],
 		//"scalable" : true, //background will be scaled to screen size
-		"items" : 
-		[
+		"items" : [
 			{
 				"name" : "main",
-				"buttons":
-				[
-					{"x": -232, "y": 0,   "name":"main-new", "shortcut" : "mainMenuNewGame", "help": 3, "command": "to new"},
-					{"x": -232, "y": 120, "name":"main-load", "shortcut" : "mainMenuLoadGame", "help": 4, "command": "to load"},
-					{"x": -232, "y": 240, "name":"main-scores", "shortcut" : "mainMenuHighScores", "help": 5, "command": "highscores"},
-					{"x": -232, "y": 360, "name":"main-credits", "shortcut" : "mainMenuCredits",  "help": 6, "command": "to credits"},
-					{"x": -232, "y": 480, "name":"quit", "shortcut" : "mainMenuQuit",  "help": 7, "command": "exit"}
+				"buttons" : [
+					{
+						"x" : -232,
+						"y" : 0,
+						"name" : "main-new",
+						"shortcut" : "mainMenuNewGame",
+						"help" : 3,
+						"command" : "to new"
+					},
+					{
+						"x" : -232,
+						"y" : 120,
+						"name" : "main-load",
+						"shortcut" : "mainMenuLoadGame",
+						"help" : 4,
+						"command" : "to load"
+					},
+					{
+						"x" : -232,
+						"y" : 240,
+						"name" : "main-scores",
+						"shortcut" : "mainMenuHighScores",
+						"help" : 5,
+						"command" : "highscores"
+					},
+					{
+						"x" : -232,
+						"y" : 360,
+						"name" : "main-credits",
+						"shortcut" : "mainMenuCredits",
+						"help" : 6,
+						"command" : "to credits"
+					},
+					{
+						"x" : -232,
+						"y" : 480,
+						"name" : "quit",
+						"shortcut" : "mainMenuQuit",
+						"help" : 7,
+						"command" : "exit"
+					}
 				]
 			},
 			{
 				"name" : "new",
-				"buttons":
-				[
-					{"x": -232, "y": 0,   "name":"game-single", "shortcut" : "mainMenuSingleplayer", "help": 10, "command": "start single"},
-					{"x": -232, "y": 120, "name":"game-multi", "shortcut" : "mainMenuMultiplayer", "help": 12, "command": "start multi"},
-					{"x": -232, "y": 240, "name":"game-camp", "shortcut" : "mainMenuCampaign",  "help": 11, "command": "to campaign"},
-					{"x": -232, "y": 360, "name":"game-tutor", "shortcut" : "mainMenuTutorial", "help": 13, "command": "start tutorial"},
-					{"x": -232, "y": 480, "name":"back",  "shortcut" : "mainMenuBack",  "help": 14, "command": "to main"}
+				"buttons" : [
+					{
+						"x" : -232,
+						"y" : 0,
+						"name" : "game-single",
+						"shortcut" : "mainMenuSingleplayer",
+						"help" : 10,
+						"command" : "start single"
+					},
+					{
+						"x" : -232,
+						"y" : 120,
+						"name" : "game-multi",
+						"shortcut" : "mainMenuMultiplayer",
+						"help" : 12,
+						"command" : "start multi"
+					},
+					{
+						"x" : -232,
+						"y" : 240,
+						"name" : "game-camp",
+						"shortcut" : "mainMenuCampaign",
+						"help" : 11,
+						"command" : "to campaign"
+					},
+					{
+						"x" : -232,
+						"y" : 360,
+						"name" : "game-tutor",
+						"shortcut" : "mainMenuTutorial",
+						"help" : 13,
+						"command" : "start tutorial"
+					},
+					{
+						"x" : -232,
+						"y" : 480,
+						"name" : "back",
+						"shortcut" : "mainMenuBack",
+						"help" : 14,
+						"command" : "to main"
+					}
 				],
-				"images": [ {"x": 280, "y": 276, "name":"NEWGAME"} ]
+				"images" : [
+					{
+						"x" : 280,
+						"y" : 276,
+						"name" : "NEWGAME"
+					}
+				]
 			},
 			{
 				"name" : "load",
-				"buttons":
-				[
-					{"x": -232, "y": 0,   "name":"game-single", "shortcut" : "mainMenuSingleplayer", "help": 10, "command": "load single"},
-					{"x": -232, "y": 120, "name":"game-multi", "shortcut" : "mainMenuMultiplayer", "help": 12, "command": "load multi"},
-					{"x": -232, "y": 240, "name":"game-camp", "shortcut" : "mainMenuCampaign",  "help": 11, "command": "load campaign"},
-					{"x": -232, "y": 360, "name":"game-tutor", "shortcut" : "mainMenuTutorial", "help": 13, "command": "load tutorial"},
-					{"x": -232, "y": 480, "name":"back",  "shortcut" : "mainMenuBack",  "help": 14, "command": "to main"}
+				"buttons" : [
+					{
+						"x" : -232,
+						"y" : 0,
+						"name" : "game-single",
+						"shortcut" : "mainMenuSingleplayer",
+						"help" : 10,
+						"command" : "load single"
+					},
+					{
+						"x" : -232,
+						"y" : 120,
+						"name" : "game-multi",
+						"shortcut" : "mainMenuMultiplayer",
+						"help" : 12,
+						"command" : "load multi"
+					},
+					{
+						"x" : -232,
+						"y" : 240,
+						"name" : "game-camp",
+						"shortcut" : "mainMenuCampaign",
+						"help" : 11,
+						"command" : "load campaign"
+					},
+					{
+						"x" : -232,
+						"y" : 360,
+						"name" : "game-tutor",
+						"shortcut" : "mainMenuTutorial",
+						"help" : 13,
+						"command" : "load tutorial"
+					},
+					{
+						"x" : -232,
+						"y" : 480,
+						"name" : "back",
+						"shortcut" : "mainMenuBack",
+						"help" : 14,
+						"command" : "to main"
+					}
 				],
-				"images": [ {"x": 250, "y": 276, "name":"LOADGAME"} ]
+				"images" : [
+					{
+						"x" : 250,
+						"y" : 276,
+						"name" : "LOADGAME"
+					}
+				]
 			},
 			{
 				"name" : "campaign",
-				"buttons":
-				[
-					{"x": -242, "y": 19,  "name":"camp-roe", "shortcut" : "mainMenuCampaignRoe", "help" : "core.genrltxt.725", "command": "campaigns roe"},
-					{"x": -253, "y": 133, "name":"camp-ab", "shortcut" : "mainMenuCampaignAb",  "help" : "core.genrltxt.724", "command": "campaigns ab"},
-					{"x": -210, "y": 254, "name":"camp-sod", "shortcut" : "mainMenuCampaignSod", "help" : "core.genrltxt.734", "command": "campaigns sod"},
-					{"x": -500, "y": 133,  "name":"camp-hota", "shortcut" : "mainMenuCampaignHota", "command": "campaigns hota"},
-					{"x": -500, "y": 254,  "name":"camp-wog", "shortcut" : "mainMenuCampaignWog", "command": "campaigns wog"},
-					{"x": -250, "y": 364, "name":"camp-chr", "shortcut" : "mainMenuCampaignChr",  "command": "campaigns chr"},
-					{"x": -340, "y": 490, "name":"camp-custom", "shortcut" : "mainMenuCampaignCustom",  "help" : "core.genrltxt.726", "command": "start campaign"},
-					{"x": -232, "y": 480, "name":"back", "shortcut" : "mainMenuBack",  "help" : "core.genrltxt.727", "command": "to new"}
+				"buttons" : [
+					{
+						"x" : -242,
+						"y" : 19,
+						"name" : "camp-roe",
+						"shortcut" : "mainMenuCampaignRoe",
+						"help" : "core.genrltxt.725",
+						"command" : "campaigns roe"
+					},
+					{
+						"x" : -253,
+						"y" : 133,
+						"name" : "camp-ab",
+						"shortcut" : "mainMenuCampaignAb",
+						"help" : "core.genrltxt.724",
+						"command" : "campaigns ab"
+					},
+					{
+						"x" : -210,
+						"y" : 254,
+						"name" : "camp-sod",
+						"shortcut" : "mainMenuCampaignSod",
+						"help" : "core.genrltxt.734",
+						"command" : "campaigns sod"
+					},
+					{
+						"x" : -500,
+						"y" : 133,
+						"name" : "camp-hota",
+						"shortcut" : "mainMenuCampaignHota",
+						"command" : "campaigns hota"
+					},
+					{
+						"x" : -500,
+						"y" : 254,
+						"name" : "camp-wog",
+						"shortcut" : "mainMenuCampaignWog",
+						"command" : "campaigns wog"
+					},
+					{
+						"x" : -250,
+						"y" : 364,
+						"name" : "camp-chr",
+						"shortcut" : "mainMenuCampaignChr",
+						"command" : "campaigns chr"
+					},
+					{
+						"x" : -340,
+						"y" : 490,
+						"name" : "camp-custom",
+						"shortcut" : "mainMenuCampaignCustom",
+						"help" : "core.genrltxt.726",
+						"command" : "start campaign"
+					},
+					{
+						"x" : -232,
+						"y" : 480,
+						"name" : "back",
+						"shortcut" : "mainMenuBack",
+						"help" : "core.genrltxt.727",
+						"command" : "to new"
+					}
 				],
-				"images": [ {"x": 250, "y": 276, "name":"CAMPAIGN"} ]
+				"images" : [
+					{
+						"x" : 250,
+						"y" : 276,
+						"name" : "CAMPAIGN"
+					}
+				]
 			}
 		]
 	}
