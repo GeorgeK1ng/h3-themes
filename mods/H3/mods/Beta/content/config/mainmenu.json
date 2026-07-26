@@ -202,13 +202,13 @@
                         "command": "campaigns sod",
                         "shortcut": "mainMenuCampaignSod"
                     },
-                    {
-                        "x": 280,
-                        "y": 16,
-                        "name": "camp-wog",
-                        "command": "campaigns wog",
-                        "shortcut": "mainMenuCampaignWog"
-                    },
+                    //{
+                    //    "x": 280,
+                    //    "y": 16,
+                    //    "name": "camp-wog",
+                    //    "command": "campaigns wog",
+                    //    "shortcut": "mainMenuCampaignWog"
+                    //},
                     {
                         "x": 280,
                         "y": 82,
